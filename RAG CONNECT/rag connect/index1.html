@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rag connect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/style1.css">
+    <link rel="shortcut icon" href="assets/download.png" type="image/x-icon">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaPgN-pIqMC2RosdNeSWbfHZzzmEeoEFw&callback=initMap" async defer></script>
+    <script src="./script.js" defer></script>
+
+</head>
+
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                <i class="fas fa-broom fa-2x" aria-label="Placeholder" style="color: var(--bs-secondary-color); padding-right: 15px;"></i>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <h2 class="display-8 fw-bold text-body-emphasis lh-1 mb-3 " style="padding-right: 25px; margin-top: px;">Rag Connect</h2> 
+                <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#service" class="nav-link px-2 link-body-emphasis">Service</a></li>
+                <li><a href="#nearby" class="nav-link px-2 link-body-emphasis">Near By</a></li>
+                <li><a href="#review" class="nav-link px-2 link-body-emphasis">Reviews</a></li>
+                <li><a href="#about" class="nav-link px-2 link-body-emphasis">About Us</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+
+            <div class="dropdown text-end">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/profile.webp" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+      <div class="container col-xxl-8 px-4 py-5" id="home">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./assets/city-cleaning.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="auto" height="350" loading="lazy">
+          </div>
+          <div class="col-lg-6" >
+            <h3 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Connecting Communities for a Cleaner Tomorrow</h3>
+            <p class="lead">Empower your community by transforming waste management through our reliable platform connecting users with local rag pickers. Discover transparent pricing and verified credentials for a sustainable future.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="ok2sbm">Sign Up</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="tcfhxd">Log In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container px-4 py-5"  id="service">
+        <h2 class="pb-2 border-bottom">Services</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/street\ cleaning.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Street Sweeping</h3>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/collection.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bulk Item Collection</h3>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/recycle.jpg'); ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Recycling Collection</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/rubbish.jpg'); ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Commercial Waste Services</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/trash.jpg'); ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hazardous Waste Disposal</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/pollution.jpg'); ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Yard Waste Collection</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row featurette" id="nearby">
+            <div class="col-md-7" id="nearby">
+              <h2 class="featurette-heading fw-normal lh-1">Nearby Location </h2><br> <br><br><br><br><br>
+              <h2><span class="text-body-secondary">Track Your Live Location</span></h2> 
+              <p class="lead">Your current location is shown on the map. This feature helps in tracking nearby places just like ride-hailing apps do.</p>
+            </div>
+            <div class="col-md-5">
+              <div id="map" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+              </div>
+            </div>
+          </div>
+        <hr class="featurette-divider">
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <h2 class="pb-2 " id="review">Reviews</h2>
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <!-- Replace the rect with an image -->
+              <image href="./assets/silhouette-shadow-forest-scene_1308-101147.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+          </svg>
+            <h2 class="fw-normal">Amirtha</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit hic commodi minus beatae recusandae voluptatum, excepturi ipsa mollitia accusamus ex. Ullam, dolorem tempora! Est, expedita dolorum. Labore, modi cum?</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <!-- Replace the rect with an image -->
+              <image href="./assets/flat-design-forest-landscape_23-2149162734.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+          </svg>
+            <h2 class="fw-normal">Harini</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ea ullam, voluptatibus delectus molestiae inventore earum quos, vitae labore tempora porro temporibus aspernatur doloremque minus distinctio corporis suscipit. Ab, explicabo.</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <!-- Replace the rect with an image -->
+              <image href="./assets/gradient-mountain-landscape_23-2149152829.avif" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+          </svg>
+          <h2 class="fw-normal">Divyapriya</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum enim accusamus facilis autem qui aut quos culpa veniam, tenetur corrupti porro sunt consectetur. Non hic laborum modi natus ducimus earum?.</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <hr class="featurette-divider" id="about">
+        <div class="my-5">
+          <div class="p-5 text-center bg-body-tertiary">
+            <div class="container py-5">
+              <h1 class="text-body-emphasis">About Us</h1>
+              <p class="col-lg-8 mx-auto lead">
+                Welcome to Rag Connect, your trusted platform connecting you with local rag pickers in your community. We are committed to creating a sustainable and inclusive solution for waste management by bridging the gap between households and rag pickers. Our mission is to ensure that waste is efficiently collected, recycled, and managed in an environmentally friendly manner.              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#service" class="nav-link px-2 text-body-secondary">Service</a></li>
+              <li class="nav-item"><a href="#nearby" class="nav-link px-2 text-body-secondary">Near By</a></li>
+              <li class="nav-item"><a href="#review" class="nav-link px-2 text-body-secondary">Reviews</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+          </footer>
+        </div>
+
+    
+        
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>

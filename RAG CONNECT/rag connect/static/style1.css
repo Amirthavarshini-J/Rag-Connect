@@ -1,0 +1,115 @@
+:root {
+    --bs-secondary-color: #131313; 
+}
+.link-body-emphasis {
+    color: var(--bs-secondary-color);
+}
+/* .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+} */
+.row{
+    padding: 20px 50px 20px 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #f4f4f4;
+    color: #000000;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.main {
+    padding: 15px;
+    background: #fff;
+    border: 2px solid #ddd;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
+.col-md-7 h2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+.featurette-divider {
+    margin: 5rem 0;
+    border-color: #090909;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+.card-cover {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex; /* Make the card-cover a flex container */
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+}
+
+.card-cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.card-cover h3 {
+    z-index: 1; /* Ensure the text is above the overlay */
+}
+
+
+
